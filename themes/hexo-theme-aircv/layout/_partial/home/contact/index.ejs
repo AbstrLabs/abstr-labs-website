@@ -1,0 +1,47 @@
+
+<%
+// adds default data usign "theme/aircv/scripts/defaultData.js" helper
+let contact = (site.data.contact !== undefined) ? site.data.contact : defaultData('contact');
+%>
+
+
+<!-- Contact -->
+<div id="contact">
+  <div class="bg-color-sky-light">
+      <div class="container content-lg">
+          <div class="row">
+              <div class="col-sm-3 sm-margin-b-30">
+                  <div class="text-right sm-text-left">
+                      <h2 class="margin-b-0"><%= contact.title %></h2>
+                      <p><%- contact.subtitle %></p>
+                  </div>
+              </div>
+              <div class="col-sm-8 col-sm-offset-1">
+                  <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <p><%- contact.description %></p>
+                        <p><%- contact.email %></p>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <form action="https://formspree.io/f/xayazgrg" method="POST" class="col-md-6 col-sm-6 col-xs-12" >
+                            <fieldset class="field">
+                                <label class="label" for="name"><span class="label-content">Name</span></label>
+                                <input class="input" type="text" name="name" placeholder="Name" required>
+                            </fieldset>
+                            <fieldset class="field">
+                                <label class="label" for="_replyto"><span class="label-content">Email</span></label>
+                                <input class="input" type="email" name="_replyto" placeholder="example@domain.com" required>
+                            </fieldset>
+                            <fieldset class="field field-button">
+                                <input class="button submit" type="submit" value="Subscribe">
+                            </fieldset>
+                        </form>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <!--// end row -->
+      </div>
+  </div>
+</div>
+<!-- End Contact -->

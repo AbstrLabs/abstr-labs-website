@@ -1,0 +1,22 @@
+- text: Home
+  href: "#body"
+
+- text: About
+  href: "#about"
+
+- text: Work
+  href: "#work"
+
+- text: Hiring
+  href: "#hiring"
+
+- text: Contact
+  href: "#contact"
+
+#- text: Blog
+#  href: "/blog"
+
+#- text: Acceso
+#  href: "/login"
+
+

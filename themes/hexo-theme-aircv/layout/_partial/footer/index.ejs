@@ -1,0 +1,32 @@
+
+<%
+// adds default data usign "theme/aircv/scripts/default-data.js" helper
+let logo = (site.data.logo !== undefined) ? site.data.logo : defaultData('logo');
+let footer = (site.data.footer !== undefined) ? site.data.footer : defaultData('footer');
+let social = (site.data.social !== undefined) ? site.data.social : defaultData('social');
+%>
+
+<footer class="footer">
+  <div class="content container">
+      <!--// row -->
+      <div class="row">
+          <div class="col-xs-6">
+            <% if(logo.text && logo.text_dark) { %>
+              <span class="footer-logo"> <%- logo.text_dark %> </span>
+            <% } else { %>
+              <img class="footer-logo" src="<%- logo.image_dark %>" alt="<%= config.title %>">
+            <% }  %>
+          </div>
+          <div class="col-xs-6 text-right sm-text-left">
+            <ul class="list-inline">
+                <%# social %>
+              <% social.forEach(social => { %>
+                <li><a title="<%= social.text %>" href="<%= social.href %>" class="social-icons"><i class="<%= social.icon %>"></i></a></li>
+              <% }); %>
+            </ul>
+            </p>
+          </div>
+      </div>
+      <!--// end row -->
+  </div>
+</footer>

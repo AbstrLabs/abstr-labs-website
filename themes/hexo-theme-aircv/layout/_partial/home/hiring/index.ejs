@@ -1,0 +1,25 @@
+
+<%
+// adds default data usign "theme/aircv/scripts/default-data.js" helper
+let hiring = (site.data.hiring !== undefined) ? site.data.hiring : defaultData('hiring');
+%>
+
+<!-- hiring -->
+<div id="hiring">
+  <div class="container content-lg">
+      <div class="row">
+        <div class="col-sm-12 col-sm-offset-1">
+            <p><%- hiring.description %></p>
+          </div>
+          <div class="col-sm-12 sm-margin-b-30">
+              <div class="text-right sm-text-left">
+                  <h2 class="margin-b-0"><%= hiring.title %></h2>
+                  <p><%- hiring.subtitle %></p>
+              </div>
+          </div>
+
+      </div>
+      <!--// end row -->
+  </div>
+</div>
+<!-- hiring -->

@@ -1,0 +1,22 @@
+title: What we're doing?
+subtitle: Surfing beyond the techniques
+
+items:
+  - title: Real Decentralized Applications
+    content: "We make ZKP applications, which are DApps running on blockchain to prove our tech."
+    # href: "#"
+    # button: "Tell me more"
+    icon: "icon-map"
+    featured: false
+  - title: Zero-Knowledge Proof
+    content: "ZKP provide a way to verify some calculation of private, or expensive, or both, has happened."
+    # href: "#"
+    # button: "Tell me more"
+    icon: "color-white icon-shield"
+    featured: true
+  - title: Development Tool Kits
+    content: "We build different toolkits including SDK and CLI for ZKP to different users and protocols."
+    # href: "#"
+    # button: "Tell me more"
+    icon: "icon-social-dropbox"
+    featured: false

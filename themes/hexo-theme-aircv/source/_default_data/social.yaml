@@ -1,0 +1,34 @@
+# - text: Facebook
+#   href: "#"
+#   #icon: "fab fa-facebook"
+#   icon: icon-social-facebook
+
+# - text: Instagram
+#   href: "#"
+# #  #icon: "fab fa-instagram"
+#   icon: "icon-social-instagram"
+
+- text: Twitter
+  href: "https://twitter.com/AbstrLabs"
+  #icon: "fab fa-twitter"
+  icon: "icon-social-twitter"
+
+- text: Linkedin
+  href: "https://www.linkedin.com/in/yifang-ma/"
+  #icon: "fab fa-linkedin-in"
+  icon: "icon-social-linkedin"
+
+- text: Github
+  href: "https://github.com/AbstrLabs"
+  #icon: "fab fa-linkedin-in"
+  icon: "icon-social-github" 
+
+# - text: Dribbble
+#   href: "#"
+#   #icon: "fab fa-dribbble-in"
+#   icon: "icon-social-dribbble"
+
+#- text: Behance
+#  href: "#"
+#  #icon: "fab fa-behance-in"
+#  icon: "icon-social-behance"

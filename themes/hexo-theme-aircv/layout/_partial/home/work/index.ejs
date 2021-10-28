@@ -1,0 +1,26 @@
+
+<%
+// adds default data usign "theme/aircv/scripts/default-data.js" helper
+let work = (site.data.work !== undefined) ? site.data.work : defaultData('work');
+%>
+
+<!-- work -->
+<div id="work">
+  <div class="container content-lg">
+      <div class="row">
+          <div class="col-sm-3 sm-margin-b-30">
+              <div class="text-right sm-text-left">
+                  <h2 class="margin-b-0"><%- work.title %></h2>
+                  <p><%- work.subtitle %></p>
+              </div>
+          </div>
+          <div class="col-sm-8 col-sm-offset-1">
+              <div class="margin-b-60">
+                <%- work.description %>
+              </div>
+          </div>
+      </div>
+      <!--// end row -->
+  </div>
+</div>
+<!-- End work -->
