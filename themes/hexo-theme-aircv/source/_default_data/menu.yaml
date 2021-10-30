@@ -13,8 +13,8 @@
 - text: Contact
   href: "#contact"
 
-# - text: Blog
-#   href: "/blog"
+- text: Post
+  href: "/post"
 
 #- text: Acceso
 #  href: "/login"
