@@ -13,8 +13,8 @@
 - text: Contact
   href: "#contact"
 
-- text: Open Positions
-  href: "/post"
+# - text: Open Positions
+#   href: "/post"
 
 #- text: Acceso
 #  href: "/login"
