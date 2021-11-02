@@ -608,6 +608,9 @@ h4 {
   -webkit-transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1);
   transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1); }
 
+.button {
+  margin-top: 20px; }
+
 /*------------------------------------------------------------------
   	[Header]
 ------------------------------------------------------------------*/
@@ -681,8 +684,8 @@ h4 {
 
 /* Navbar Logo */
 .header .logo {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   float: left;
   max-height: 95px;
   line-height: 65px; }
