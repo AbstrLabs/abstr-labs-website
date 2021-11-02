@@ -7,7 +7,7 @@ date: 2021-10-30 12:07:44
 1. Web Designer
 - Work within cross-functional teams to iterate on existing products and invent new ones, crafting rational, elegant, and delightful solutions to complex problems.
 - Take full ownership of the product. You will help scope, drive, and measure the success of multiple workstreams.
-- Designers who work at Abstr Labs are passionate about helping startups succeed. This is a rare opportunity to join the company at the nerve center of the startups ecosystem. 
+- Designers who work at Abstr Labs are passionate about helping startups succeed. This is a rare opportunity to join the company at start stage. 
 - Influence design and business decisions at the company by bringing a systematic and visual eye to the company.
 - Inspire the team by bringing new ideas to the table
 - Play an integral role in cross-functional strategic planning efforts to understand and bridge business priorities with design output.
