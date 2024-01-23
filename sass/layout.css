@@ -112,7 +112,7 @@ a:active {
   right: -15px;
   width: 9px;
   height: 2px;
-  background: #af71ed;
+  background: #af7bd9;
   content: " ";
 }
 
@@ -182,19 +182,19 @@ h4 {
 
 ::selection {
   color: #fff;
-  background: #af71ed;
+  background: #af7bd9;
   text-shadow: none;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #af71ed;
+  background: #af7bd9;
   text-shadow: none;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #af71ed;
+  background: #af7bd9;
   text-shadow: none;
 }
 
@@ -448,7 +448,7 @@ fieldset[disabled] .btn-theme {
 .btn-white-bg:focus,
 .btn-white-bg.focus {
   color: #fff;
-  background: #af71ed;
+  background: #af7bd9;
   border-color: transparent;
 }
 
@@ -478,7 +478,7 @@ fieldset[disabled] .btn-theme {
 .btn-default-bg:focus,
 .btn-default-bg.focus {
   color: #fff;
-  background: #af71ed;
+  background: #af7bd9;
   border-color: transparent;
 }
 
@@ -527,7 +527,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .social-icons:hover {
-  color: #af71ed;
+  color: #af7bd9;
   background: #fafafa;
   transition-duration: 300ms;
   transition-property: all;
@@ -684,7 +684,7 @@ fieldset[disabled] .btn-theme {
 .work .work-overlay-label {
   position: absolute;
   bottom: 0px;
-  background: #af71ed;
+  background: #af7bd9;
   opacity: 0.8;
   text-align: right;
   width: 100%;
@@ -799,8 +799,23 @@ fieldset[disabled] .btn-theme {
   	[Footer]
 ------------------------------------------------------------------*/
 .footer .footer-logo {
-  width: 64px;
-  height: auto;
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.footer {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-right {
+  text-align: right;
 }
 
 /*------------------------------------------------------------------
@@ -909,7 +924,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .header .navbar-toggle:hover .toggle-icon {
-  background: #af71ed;
+  background: #af7bd9;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -919,7 +934,7 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle:hover .toggle-icon:after {
   width: 21px;
   height: 1px;
-  background: #af71ed;
+  background: #af7bd9;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -939,8 +954,10 @@ fieldset[disabled] .btn-theme {
 }
 
 .header .logo-wrap {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   padding: 15px 0;
+  width: 200px;
 }
 
 .header .logo-wrap:focus,
@@ -950,13 +967,14 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-img {
   display: inline-block;
-  width: 140px;
-  height: auto;
+  width: 80px;
+  height: 80px;
   max-width: 100%;
   max-height: 100%;
   vertical-align: middle;
   font-size: 4rem;
   text-shadow: 2px 2px 5px rgb(119, 26, 159);
+  margin-right: 15px;
 }
 
 .header .logo-img-main {
@@ -1034,7 +1052,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #af71ed;
+  background: #af7bd9;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
@@ -1056,7 +1074,7 @@ fieldset[disabled] .btn-theme {
   }
 
   .header .navbar-collapse {
-    background-color: #af71ed;
+    background-color: #af7bd9;
   }
 
   .header .navbar-collapse.collapse {
@@ -1307,7 +1325,7 @@ fieldset[disabled] .btn-theme {
   	[Text Colors]
 ------------------------------------------------------------------*/
 .color-base {
-  color: #af71ed !important;
+  color: #af7bd9 !important;
 }
 
 .color-white {
@@ -1338,7 +1356,7 @@ fieldset[disabled] .btn-theme {
   	[Background Colors]
 ------------------------------------------------------------------*/
 .bg-color-base {
-  background: #af71ed !important;
+  background: #af7bd9 !important;
 }
 
 .bg-color-white {
