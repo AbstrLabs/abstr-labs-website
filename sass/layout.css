@@ -30,7 +30,6 @@
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
-  speak: none;
   /*display: inline-block;*/
   text-decoration: inherit;
   width: 1em;
@@ -228,7 +227,7 @@ h4 {
 
 .video-container iframe {
   min-width: 80%;
-  height: calc(100vw * 9/16 - 20vw * 9/16);
+  height: calc(100vw * 9/16 - 10vw * 9/16);
 }
 
 @media (max-width: 991px) {
@@ -564,17 +563,20 @@ fieldset[disabled] .btn-theme {
   font-size: 70px;
   color: #515769;
   line-height: 1;
+  text-shadow: 2px 2px 5px #815794;
 }
 
 @media (max-width: 480px) {
   .promo-block .promo-block-title {
     font-size: 50px;
+    text-shadow: 2px 2px 5px #865a9a;
   }
 }
 
 .promo-block .promo-block-text {
   font-size: 25px;
   color: #67696d;
+  text-shadow: 2px 2px 5px #866c91;
 }
 
 .promo-block .promo-block-divider {
@@ -953,8 +955,8 @@ fieldset[disabled] .btn-theme {
   max-width: 100%;
   max-height: 100%;
   vertical-align: middle;
-  font-size: x-large;
-  text-shadow: 0px 2px 8px #FFF;
+  font-size: 4rem;
+  text-shadow: 2px 2px 5px rgb(119, 26, 159);
 }
 
 .header .logo-img-main {
@@ -1406,8 +1408,8 @@ fieldset[disabled] .btn-theme {
 
 .container-sm:before,
 .container-sm:after {
-  content: " ";
-  display: table;
+  /* content: " "; */
+  display: flex;
 }
 
 .container-sm:after {
@@ -1418,13 +1420,22 @@ fieldset[disabled] .btn-theme {
 @media (min-width: 768px) {
   .container-sm {
     width: 750px;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container-sm {
+    width: 970px;
+    height: 100%;
   }
 }
 
 /* Media Queries below 1200px */
 @media (min-width: 1200px) {
   .container-sm {
-    width: 970px;
+    width: 1170px;
+    height: 100vh;
   }
 }
 
@@ -1956,4 +1967,15 @@ textarea {
   cursor: pointer;
   font-size: large;
   font-weight: 700;
+}
+
+.product-list {
+  color: #8e44ad;
+  text-shadow: 1px 1px 2px rgb(64, 0, 255), 0 0 1em rgb(93, 0, 255), rgb(59, 0, 122) 0.2em blue;
+}
+
+.product-item {
+  background: content-box linear-gradient(rgba(187, 167, 198, 0.348), rgba(255, 255, 255, 0.183));
+  padding: 10px;
+  margin: 10px;
 }
