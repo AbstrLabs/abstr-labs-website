@@ -1863,6 +1863,17 @@ fieldset[disabled] .btn-theme {
   margin: 0 0 40px;
 }
 
+input:valid~label.fcf-label,
+textarea:valid~label.fcf-label,
+input:focus~label.fcf-label,
+textarea:focus~label.fcf-label {
+  font-size: 0.75em;
+  color: #939393;
+  top: -15px;
+  left: 0;
+  transition: all 0.125s cubic-bezier(0.2, 0, 0.03, 1);
+}
+
 .fcf-form-group {
   width: 47%;
   height: auto;
